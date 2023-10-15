@@ -59,6 +59,7 @@
     clear: both;
 }
 
+
 /*CERTIFICATE TITLE STYLE*/
 .certificate_title {
     font-family: Arial;
@@ -83,8 +84,10 @@
     width: 100%;
     border: 1px solid black;
   }
+  
 
   
+
 /*STUDENT GENERAL INFO STYLE*/
 .studgeninfo
 {
@@ -149,6 +152,7 @@
 }
 
 
+
 /*SUBJECT INFO STYLE*/ 
 .subinfo {
     border-top: 1px solid black;
@@ -181,7 +185,7 @@
     font-size: small;
     font-weight: normal;
     font-size: 14px;
-} 
+}
 
 .underlineName1 {
     text-decoration: underline;
@@ -192,6 +196,7 @@
     float: right;
     font-size: 13px;
 }
+
 
 /*NOTE STYLE*/
 .note {
@@ -341,6 +346,7 @@
 }
 
 
+
 /*PAYMENT DATE STYLE*/
 .paytable {
     border-collapse: collapse;
@@ -386,7 +392,8 @@
 }
 
 
-/*DATE PRINT STYLE*/ 
+
+/*DATE PRINTER STYLE*/ 
 .datesigned {
     font-size: 12px;
     font-weight: normal;
@@ -409,5 +416,3 @@ footer {
     margin-top: 0; 
     padding-top: 0; 
   }
-
-
