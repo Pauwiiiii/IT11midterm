@@ -122,3 +122,29 @@
     height: 10px;
     
 }
+
+/*STUD INFO STYLE NAME, COURSE, PROGRAM ETC*/
+.studinfo {
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 100%;
+}
+
+.studinfo td {
+    border: none; 
+    padding: 5px 10px; 
+    font-size: 14px; 
+    font-weight: bold;
+}
+
+.studinfo {
+    border-right: none;
+    border-left: none;
+    border-bottom: none;
+    border-top: none;
+}
+
+.style {
+    font-weight: normal;
+}
+
