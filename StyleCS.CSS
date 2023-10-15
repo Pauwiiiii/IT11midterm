@@ -283,5 +283,63 @@
 }
 
 
+/*BESIDE TABLE STYLE*/
+
+.texts {
+    flex: 1; 
+    margin-right: 20px; 
+    text-align: center;
+    font-family: 'Times New Roman';
+    margin-bottom: 100px;
+}
+
+.text2 {
+    text-align: left;
+    font-family: 'Times New Roman';
+    font-size: 15px;
+    letter-spacing: 3px;
+    margin: 5px 150px; 
+}
+
+.text3 {
+    text-align: left;
+    font-family: Arial;
+    font-size: 15px;
+    margin: 50px 150px; 
+}
+
+.text4 {
+    text-align: left;
+    font-family: Arial;
+    font-size: 15px;
+    margin: 70px 250px; 
+}
+
+.registrar-signature {
+    display: block;
+    margin-left: 300px; /* Adjust this margin as needed for proper alignment */
+}
+.text5 {
+    text-align: center;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 250px; 
+    margin-top: none;
+    margin-bottom: none;
+    border-bottom: 2px solid black;
+
+}
+
+.text6 {
+    text-align: center;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 12px;
+    margin-left: 250px; 
+    padding-top: 1;
+}
+
+
 
 
