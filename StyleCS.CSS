@@ -1,0 +1,60 @@
+/* Styling Main Table*/
+.Main_table {
+    border-collapse: 1em;
+    border-color: black;
+    border: 1px solid black;
+    background-color: white;
+    width: 100%;
+    font-family: Arial;
+    font-size: 16px;
+}
+
+.Main_table td {
+    padding: 20px; 
+}
+
+.table {
+    border-collapse: 1em;
+    border-color: black;
+    border: 1px solid black;
+    background-color: white;
+    width: 100%;
+    font-family: Arial;
+    font-size: 16px;
+}
+
+.table td {
+    padding: 0;
+}
+
+/* Logo and title*/
+
+.mainhead {
+    display: flex;
+    align-items: center;
+    max-width: 100%; 
+  }
+  
+  .uppertext {
+    margin-left: 20px; 
+    font-family: 'Arial';
+    font-size: 14px;
+    color: black;
+    text-align: center;
+  }
+
+.psulogo {
+    max-width: 150px; 
+    margin-top: 40px;
+    margin-left: 650px; 
+    display: block; 
+    
+}
+
+.psutext {
+    font-size: 20px;
+}
+
+.clear {
+    clear: both;
+}
