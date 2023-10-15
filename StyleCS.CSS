@@ -58,3 +58,28 @@
 .clear {
     clear: both;
 }
+
+/*CERTIFICATE TITLE STYLE*/
+.certificate_title {
+    font-family: Arial;
+    text-align: center;
+    letter-spacing: 7px;
+    font-weight: bold;
+
+}
+
+.regnum {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.regnumber {
+    color: darkred;
+}
+
+.table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid black;
+  }
