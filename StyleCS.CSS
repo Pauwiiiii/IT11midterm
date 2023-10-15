@@ -148,3 +148,48 @@
     font-weight: normal;
 }
 
+
+/*SUBJECT INFO STYLE*/ 
+.subinfo {
+    border-top: 1px solid black;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    background-color: white;
+    width: 100%;
+    font-family: Arial;
+    color: black;
+    border-collapse: collapse; 
+    border-top: #000 solid 1px;
+}
+
+.subinfo th {
+    background-color: #848cfe;
+    color: black;
+    border-bottom: 1px solid black;
+    padding: 8px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.subinfo td {
+    background-color: white;
+    color: black;
+    padding: 8px;
+    text-align: left;
+    font-size: small;
+    font-weight: normal;
+    font-size: 14px;
+} 
+
+.underlineName1 {
+    text-decoration: underline;
+}
+
+.total-unit {
+    font-weight: bold;
+    float: right;
+    font-size: 13px;
+}
+
