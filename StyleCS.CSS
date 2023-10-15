@@ -386,5 +386,14 @@
 }
 
 
+/*DATE PRINT STYLE*/ 
+.datesigned {
+    font-size: 12px;
+    font-weight: normal;
+    text-align: right;
+    margin: 0; 
+    line-height: 2;
+}
+
 
 
