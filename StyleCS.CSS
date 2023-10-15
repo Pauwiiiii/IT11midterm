@@ -395,5 +395,19 @@
     line-height: 2;
 }
 
+/*FOOTER STYLE*/
+footer {
+    text-align: center;
+    background-color: #848cfe;
+    color: black;
+    border-top: 1px solid black;
+    border-left: none;
+    border-right: none;
+    height: 30px;
+    font-family: Arial;
+    font-size: small;
+    margin-top: 0; 
+    padding-top: 0; 
+  }
 
 
