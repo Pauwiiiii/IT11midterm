@@ -1,0 +1,418 @@
+/* Styling Main Table*/
+.Main_table {
+    border-collapse: 1em;
+    border-color: black;
+    border: 1px solid black;
+    background-color: white;
+    width: 100%;
+    font-family: Arial;
+    font-size: 16px;
+}
+
+.Main_table td {
+    padding: 20px; 
+}
+
+.table {
+    border-collapse: 1em;
+    border-color: black;
+    border: 1px solid black;
+    background-color: white;
+    width: 100%;
+    font-family: Arial;
+    font-size: 16px;
+}
+
+.table td {
+    padding: 0;
+}
+
+/* Logo and title*/
+
+.mainhead {
+    display: flex;
+    align-items: center;
+    max-width: 100%; 
+  }
+  
+  .uppertext {
+    margin-left: 20px; 
+    font-family: 'Arial';
+    font-size: 14px;
+    color: black;
+    text-align: center;
+  }
+
+.psulogo {
+    max-width: 150px; 
+    margin-top: 40px;
+    margin-left: 650px; 
+    display: block; 
+    
+}
+
+.psutext {
+    font-size: 20px;
+}
+
+.clear {
+    clear: both;
+}
+
+
+/*CERTIFICATE TITLE STYLE*/
+.certificate_title {
+    font-family: Arial;
+    text-align: center;
+    letter-spacing: 7px;
+    font-weight: bold;
+
+}
+
+.regnum {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.regnumber {
+    color: darkred;
+}
+
+.table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid black;
+  }
+  
+
+  
+
+/*STUDENT GENERAL INFO STYLE*/
+.studgeninfo
+{
+    border-collapse: 1em;
+    border-color: black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid black;
+    background-color: #848cfe;
+    width: 100%;
+    padding: 0;
+    text-align: center; 
+    font-weight: bold; 
+    font-family: Arial; 
+    font-size: 16px;
+    color:black;
+    height: 10px;
+    
+}
+
+.studgeninfo th
+{
+    border-collapse: 1em;
+    border-color: black;
+    border: none;
+    background-color:#848cfe;
+    width: 100%;
+    padding: 8px;
+    text-align: center; 
+    font-weight: bold; 
+    font-family: Arial; 
+    font-size: 16px;
+    color:black;
+    height: 10px;
+    
+}
+
+/*STUD INFO STYLE NAME, COURSE, PROGRAM ETC*/
+.studinfo {
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 100%;
+}
+
+.studinfo td {
+    border: none; 
+    padding: 5px 10px; 
+    font-size: 14px; 
+    font-weight: bold;
+}
+
+.studinfo {
+    border-right: none;
+    border-left: none;
+    border-bottom: none;
+    border-top: none;
+}
+
+.style {
+    font-weight: normal;
+}
+
+
+
+/*SUBJECT INFO STYLE*/ 
+.subinfo {
+    border-top: 1px solid black;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    background-color: white;
+    width: 100%;
+    font-family: Arial;
+    color: black;
+    border-collapse: collapse; 
+    border-top: #000 solid 1px;
+}
+
+.subinfo th {
+    background-color: #848cfe;
+    color: black;
+    border-bottom: 1px solid black;
+    padding: 8px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.subinfo td {
+    background-color: white;
+    color: black;
+    padding: 8px;
+    text-align: left;
+    font-size: small;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.underlineName1 {
+    text-decoration: underline;
+}
+
+.total-unit {
+    font-weight: bold;
+    float: right;
+    font-size: 13px;
+}
+
+
+/*NOTE STYLE*/
+.note {
+    border-collapse: collapse;
+    background-color: white;
+    width: 45%;
+    table-layout: fixed;
+    color: black;
+    font-family: Arial; 
+    font-size: 13px;
+}
+
+.note td {
+    background-color: white;
+    border-bottom: none;
+    border: none; 
+    width: 45%;
+    padding: 8px;
+    margin-bottom: 100px;
+    color: none;
+    text-align: left;
+    font-size: 13px;
+}
+
+
+/*ASSESS TABLE STYLE*/
+.fees {
+    border-collapse: collapse;
+    width: 45%; 
+    background-color: white;
+    font-family: Arial;
+    color: black;
+    font-size: 13px;
+    border: 1px solid black;
+    margin-left: 30px; 
+}
+
+.fees td {
+    border: none;
+    padding: 8px;
+    text-align: left;
+}
+
+.Tfees td {
+    background-color: #848cfe;
+    color: black;
+    border: 1px solid black;
+    padding: 0;
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial;
+    font-size: 16px;
+    letter-spacing: 8px;
+}
+
+.allignright {
+    text-align: right;
+    padding-right: 8px; 
+}
+
+
+/*PAYMENT TABLE STYLE*/ 
+.container {
+    display: flex;
+}
+
+.amount {
+    border-collapse: collapse;
+    border: 1px solid #000;
+    background-color: white;
+    width: 45%;
+    text-align: center;
+    font-family: Arial;
+    color: black;
+    table-layout: fixed;
+    font-size: 14px; 
+    margin-left: 30px;
+    max-height: 30%;
+    text-align: left;
+    padding: 0;
+}
+
+.amount td {
+    text-align: center;
+}
+
+.amount span {
+    float: right;
+}
+
+
+/*BESIDE TABLE STYLE*/
+
+.texts {
+    flex: 1; 
+    margin-right: 20px; 
+    text-align: center;
+    font-family: 'Times New Roman';
+    margin-bottom: 100px;
+}
+
+.text2 {
+    text-align: left;
+    font-family: 'Times New Roman';
+    font-size: 15px;
+    letter-spacing: 3px;
+    margin: 5px 150px; 
+}
+
+.text3 {
+    text-align: left;
+    font-family: Arial;
+    font-size: 15px;
+    margin: 50px 150px; 
+}
+
+.text4 {
+    text-align: left;
+    font-family: Arial;
+    font-size: 15px;
+    margin: 70px 250px; 
+}
+
+.registrar-signature {
+    display: block;
+    margin-left: 300px; /* Adjust this margin as needed for proper alignment */
+}
+.text5 {
+    text-align: center;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 250px; 
+    margin-top: none;
+    margin-bottom: none;
+    border-bottom: 2px solid black;
+
+}
+
+.text6 {
+    text-align: center;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 12px;
+    margin-left: 250px; 
+    padding-top: 1;
+}
+
+
+
+/*PAYMENT DATE STYLE*/
+.paytable {
+    border-collapse: collapse;
+    width: 45%;
+    background-color: white;
+    font-family: Arial;
+    color: black;
+    table-layout: fixed;
+    font-size: 13px; 
+    border: 1px solid black;
+    margin-left: 25px;
+    max-height: 30%;
+    text-align: left;
+}
+
+.datefees td {
+    
+    border-collapse: collapse;
+    border-color: black;
+    border: 1px solid black;
+    background-color: #848cfe;
+    width: 45%;
+    padding: 0;
+    text-align: center; 
+    font-weight: bold; 
+    font-family: Arial; 
+    color:black;
+    letter-spacing: 5px;
+    font-size: 16px;
+    border-top: none;
+}
+
+.paytable {
+    border-collapse: collapse;
+    border: 1px solid #000;
+    text-align: center;
+    margin-left: 30px;
+}
+
+.paydate td {
+    border: 1px solid #000;
+    padding: 5px; 
+}
+
+
+
+/*DATE PRINT STYLE*/ 
+.datesigned {
+    font-size: 12px;
+    font-weight: normal;
+    text-align: right;
+    margin: 0; 
+    line-height: 2;
+}
+
+/*FOOTER STYLE*/
+footer {
+    text-align: center;
+    background-color: #848cfe;
+    color: black;
+    border-top: 1px solid black;
+    border-left: none;
+    border-right: none;
+    height: 30px;
+    font-family: Arial;
+    font-size: small;
+    margin-top: 0; 
+    padding-top: 0; 
+  }
