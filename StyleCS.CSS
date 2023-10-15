@@ -217,3 +217,71 @@
 }
 
 
+/*ASSESS TABLE STYLE*/
+.fees {
+    border-collapse: collapse;
+    width: 45%; 
+    background-color: white;
+    font-family: Arial;
+    color: black;
+    font-size: 13px;
+    border: 1px solid black;
+    margin-left: 30px; 
+}
+
+.fees td {
+    border: none;
+    padding: 8px;
+    text-align: left;
+}
+
+.Tfees td {
+    background-color: #848cfe;
+    color: black;
+    border: 1px solid black;
+    padding: 0;
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial;
+    font-size: 16px;
+    letter-spacing: 8px;
+}
+
+.allignright {
+    text-align: right;
+    padding-right: 8px; 
+}
+
+
+/*PAYMENT TABLE STYLE*/ 
+.container {
+    display: flex;
+}
+
+.amount {
+    border-collapse: collapse;
+    border: 1px solid #000;
+    background-color: white;
+    width: 45%;
+    text-align: center;
+    font-family: Arial;
+    color: black;
+    table-layout: fixed;
+    font-size: 14px; 
+    margin-left: 30px;
+    max-height: 30%;
+    text-align: left;
+    padding: 0;
+}
+
+.amount td {
+    text-align: center;
+}
+
+.amount span {
+    float: right;
+}
+
+
+
+
