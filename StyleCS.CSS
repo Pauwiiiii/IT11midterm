@@ -193,3 +193,27 @@
     font-size: 13px;
 }
 
+/*NOTE STYLE*/
+.note {
+    border-collapse: collapse;
+    background-color: white;
+    width: 45%;
+    table-layout: fixed;
+    color: black;
+    font-family: Arial; 
+    font-size: 13px;
+}
+
+.note td {
+    background-color: white;
+    border-bottom: none;
+    border: none; 
+    width: 45%;
+    padding: 8px;
+    margin-bottom: 100px;
+    color: none;
+    text-align: left;
+    font-size: 13px;
+}
+
+
