@@ -83,3 +83,42 @@
     width: 100%;
     border: 1px solid black;
   }
+
+  
+/*STUDENT GENERAL INFO STYLE*/
+.studgeninfo
+{
+    border-collapse: 1em;
+    border-color: black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid black;
+    background-color: #848cfe;
+    width: 100%;
+    padding: 0;
+    text-align: center; 
+    font-weight: bold; 
+    font-family: Arial; 
+    font-size: 16px;
+    color:black;
+    height: 10px;
+    
+}
+
+.studgeninfo th
+{
+    border-collapse: 1em;
+    border-color: black;
+    border: none;
+    background-color:#848cfe;
+    width: 100%;
+    padding: 8px;
+    text-align: center; 
+    font-weight: bold; 
+    font-family: Arial; 
+    font-size: 16px;
+    color:black;
+    height: 10px;
+    
+}
